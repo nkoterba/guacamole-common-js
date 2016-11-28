@@ -20,6 +20,18 @@ library __guacamole-common-js__. In addition, I have converted it to a NPM repos
 npm install --save padarom-guacamole-common-js
 ```
 
+## How to use this fork
+
+This fork includes a [UMD](https://github.com/umdjs/umd) wrapper to export the `Guacamole` object
+ in CommonJS format, AMD format, or as a 'global' object (when used in browser).  For CommonJS, 
+ simply require this library:
+ 
+```
+var Guacamole = require('padarom-guacamole-common-js');
+// All modules are now exposed:
+var tunnel = new Guacamole.HTTPTunnel(..., ...);
+```
+
 ## Documentation
 Distribution-specific packages are available from the files section of the main
 project page:

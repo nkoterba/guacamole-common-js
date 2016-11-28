@@ -1,7 +1,11 @@
 {
   "name": "padarom-guacamole-common-js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The JavaScript Guacamole client as a NPM package",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm install; tape test/**/*.test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Padarom/guacamole-common-js.git"
@@ -23,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Padarom/guacamole-common-js/issues"
   },
-  "homepage": "https://github.com/Padarom/guacamole-common-js#readme"
+  "homepage": "https://github.com/Padarom/guacamole-common-js#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }

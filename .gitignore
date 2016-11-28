@@ -1,4 +1,14 @@
+#########################
+# Development Ignores
+#########################
+/.idea/
+/guacamole-common-js.iml
 *~
 target/
 nb-configuration.xml
 guacamole/customs.json
+
+#########################
+# External Library Ignores
+#########################
+node_modules
